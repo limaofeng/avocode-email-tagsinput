@@ -1,0 +1,16 @@
+.theme-container {
+  width: 100%;
+  padding: 10px;
+}
+
+.styled-avocode-email-tagsinput-container {
+  width: 500px;
+}
+
+.theme-container--light {
+  background-color: #fff;
+}
+
+.theme-container--dark{
+  background-color: #171717;
+}

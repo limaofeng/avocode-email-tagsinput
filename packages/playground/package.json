@@ -17,6 +17,7 @@
   "dependencies": {
     "@avocode/avocode-email-tagsinput": "^2.0.0",
     "@avocode/better-react-tagsinput": "^2.0.0",
+    "@avocode/styled-avocode-email-tagsinput": "^2.0.0",
     "classnames": "^2.2.6",
     "immutable": "^3.8.1",
     "marked": "^0.7.0",

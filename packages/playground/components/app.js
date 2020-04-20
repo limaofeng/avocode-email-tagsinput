@@ -6,6 +6,8 @@ import marked from 'marked'
 
 import AvocodeEmailTagsInputView from './avocode-email-tagsiput/'
 import BetterReactTagsInputView from './better-react-tagsinput/'
+import StyledAvocodeEmailTagsInputView from './styled-avocode-email-tagsinput/'
+
 import ApiView from './api-view'
 import pkg from '../package.json'
 
@@ -65,12 +67,14 @@ export default class App extends React.Component<{}, State> {
               <nav>
                 <ul className='nav'>
                   <li className='nav-item'><Link to="/avocode-email-tagsinput">Avocode Email TagsInput</Link></li>
+                  <li className='nav-item'><Link to="/styled-avocode-email-tagsinput">Styled Avocode Email TagsInput</Link></li>
                   <li className='nav-item'><Link to="/better-react-tagsinput">Better React TagsInput</Link></li>
                 </ul>
               </nav>
 
               <Route path='/' exact component={AvocodeEmailTagsInputView} />
               <Route path='/avocode-email-tagsinput' component={AvocodeEmailTagsInputView} />
+              <Route path='/styled-avocode-email-tagsinput' component={StyledAvocodeEmailTagsInputView} />
               <Route path='/better-react-tagsinput' component={BetterReactTagsInputView} />
             </div>
             <div className='app-container__api'>

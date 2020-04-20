@@ -1,0 +1,11 @@
+@import './variables-light.css';
+@import './variables-dark.css';
+
+.avocode-email-tagsinput--styled-avocode-email-tagsinput--light,
+.avocode-email-tagsinput--styled-avocode-email-tagsinput--dark,
+.avocode-email-tagsinput-collapsible--styled-avocode-email-tagsinput--light,
+.avocode-email-tagsinput-collapsible--styled-avocode-email-tagsinput--dark {
+  --error-color-brand: #f83a35;
+  --text-size-1: 1.1rem;
+  --main-color-brand-highlight: #00bc87;
+}
